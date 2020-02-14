@@ -1,5 +1,5 @@
 import React from 'react';
-import {render, fireEvent, waitForElement, getByLabelText} from '@testing-library/react';
+import {render, fireEvent, waitForElement} from '@testing-library/react';
 import ContactForm from './ContactForm';
 
 test('Contact Form renders', () => {
